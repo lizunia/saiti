@@ -1,16 +1,54 @@
-# React + Vite
+# GlowHaus Makeup Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+GlowHaus არის React/Vite მაკიაჟის ვებ აპლიკაცია, რომელიც შესრულებულია სასწავლო დავალების მოთხოვნების მიხედვით.
 
-Currently, two official plugins are available:
+## გამოყენებული ტექნოლოგიები
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React functional components
+- React Hooks: useState, useEffect, useMemo და custom hooks
+- React Router navigation
+- Makeup API ინტეგრაცია fetch-ით
+- Local Storage: თემა, ენა, ფავორიტები და beauty bag
+- Session Storage: ჯავშნის ფორმა
+- Responsive CSS
+- Dark / Light თემა
+- ქართული / ინგლისური ენა
+- CSS animations და modal windows
 
-## React Compiler
+## გვერდები
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- მთავარი გვერდი: hero სექცია და კვირის პროდუქტები
+- პროდუქტები: API კატალოგი, ძებნა, ფილტრი, ფავორიტები და ჩანთა
+- სერვისები: სტუდიოს სერვისები და ჯავშნის მოდალი
+- ფავორიტები: local storage-ში შენახული პროდუქტები
 
-## Expanding the Oxlint configuration
+## გაშვების ინსტრუქცია
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+Production build:
+
+```bash
+npm run build
+```
+
+## API
+
+აპი იყენებს Makeup API-ს:
+
+`https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline`
+
+თუ API დროებით მიუწვდომელია, პროექტი აჩვენებს ადგილობრივ fallback პროდუქტებს.
+
+## Screenshots
+
+სქრინშოთების დასამატებლად GitHub-ზე ატვირთვამდე შეგიძლია შექმნა `screenshots` ფოლდერი და README-ში ჩასვა:
+
+```md
+![Home](screenshots/home.png)
+![Products](screenshots/products.png)
+![Services](screenshots/services.png)
+```
