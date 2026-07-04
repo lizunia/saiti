@@ -39,16 +39,6 @@ npm run build
 
 აპი იყენებს Makeup API-ს:
 
-`https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline`
 
-თუ API დროებით მიუწვდომელია, პროექტი აჩვენებს ადგილობრივ fallback პროდუქტებს.
 
-## Screenshots
 
-სქრინშოთების დასამატებლად GitHub-ზე ატვირთვამდე შეგიძლია შექმნა `screenshots` ფოლდერი და README-ში ჩასვა:
-
-```md
-![Home](screenshots/home.png)
-![Products](screenshots/products.png)
-![Services](screenshots/services.png)
-```
