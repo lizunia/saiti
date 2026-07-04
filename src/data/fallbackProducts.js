@@ -1,0 +1,6 @@
+export const fallbackProducts = [
+  { id: 901, name: 'Velvet Rose Lipstick', brand: 'GlowHaus', price: '22.00', product_type: 'lipstick', rating: 4.8, description: 'Soft matte rose lipstick with a creamy finish.', image_link: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=700&q=80' },
+  { id: 902, name: 'Silk Skin Foundation', brand: 'Luma', price: '34.00', product_type: 'foundation', rating: 4.6, description: 'Lightweight buildable foundation for a natural satin base.', image_link: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80' },
+  { id: 903, name: 'Pearl Beam Highlighter', brand: 'Aura', price: '19.00', product_type: 'bronzer', rating: 4.7, description: 'Fine shimmer powder for cheekbones, brow bone, and collarbone.', image_link: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80' },
+  { id: 904, name: 'Soft Smoke Palette', brand: 'Studio Pro', price: '41.00', product_type: 'eyeshadow', rating: 4.9, description: 'Nine blendable shades for day-to-evening makeup looks.', image_link: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80' },
+]
